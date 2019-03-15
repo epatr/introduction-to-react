@@ -8,9 +8,14 @@ import * as ReactDOM from 'react-dom';
 // };
 
 const HelloWorld = () => 
-    <header>
-        <h1>Hello World</h1>
-    </header>;
+    <React.Fragment>
+        <header>
+            <h1>Hello World</h1>
+        </header>
+        <footer>
+            <small>Copyright 2019 Some Nonsense</small>
+        </footer>
+    </React.Fragment>;
 
 ReactDOM.render(
     <HelloWorld />,
