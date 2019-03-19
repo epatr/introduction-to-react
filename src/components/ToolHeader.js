@@ -1,7 +1,10 @@
 import * as React from 'react';
 
-export const ToolHeader = () => 
-    <header>
-        <h1>Hello World</h1>
-    </header>
-    
+export const ToolHeader = () => {
+
+    const headerText = 'Color Tool';
+
+    return <header>
+        <h1>{headerText}</h1>
+    </header>;
+};
