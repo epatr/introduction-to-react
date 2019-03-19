@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import HelloWorld from './components/HelloWorld';
+import { App } from './App';
 
 ReactDOM.render(
-    <HelloWorld />,
+    <App />,
     document.querySelector('#root'),
 );
