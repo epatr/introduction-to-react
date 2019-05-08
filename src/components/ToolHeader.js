@@ -1,10 +1,8 @@
 import * as React from 'react';
 
-export const ToolHeader = () => {
-
-    const headerText = 'Color Tool';
+export const ToolHeader = props => {
 
     return <header>
-        <h1>{headerText}</h1>
+        <h1>{props.headerText}</h1>
     </header>;
 };
